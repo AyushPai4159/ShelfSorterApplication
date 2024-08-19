@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Organizing  App</title>
+    <link rel="stylesheet" href="styles/organizingRoom.css">
+  </head>
+  <body>
+    <h1>Organizing my Room for Once!</h1>
+
+    <div class="item-input-grid">
+      <input placeholder="item name"
+        class="js-name-input name-input">
+      <input placeholder="item size(small, medium, or large)"
+        class="js-size-input name-input">
+      <input placeholder="item quantity"
+        class="js-quantity-input name-input">
+      <input placeholder="(Optional)item type(e.g. school)."
+        class="js-type-input name-input">
+      
+      <button class="add-item-button js-add-item-button" id="itemBut">Add</button>
+    </div>
+    <div class="js-item-list item-grid"></div>
+
+    <div class="item-input-grid" style="margin-top: 50px;">
+      <input placeholder="Storage unit name"
+        class="js-name2-input name-input">
+      <input placeholder="Storage capacity(small, medium, large, or a combination of sizes)"
+        class="js-size2-input name-input">
+      <input placeholder="Max number of items inside"
+        class="js-quantity2-input name-input">
+      <input placeholder="Storage type"
+        class="js-type2-input name-input">
+      
+      <button class="add-item-button js-add-item-button" id="storBut">Add</button>
+    </div>
+    <div class="js-storage-list storage-grid"></div>
+    <div>
+      <button class="add-item-button" 
+        style="margin-top: 100px; padding: 6px"
+          id="process">Process Tables</button>
+    </div>
+    <div class = "processGenerate"></div>
+    
+
+    <script type="module" src="organizingRoom/organizingRoom.js"></script>
+  </body>
+</html>

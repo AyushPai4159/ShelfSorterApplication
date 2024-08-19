@@ -1,0 +1,63 @@
+body{
+
+    font-family: Arial;
+    
+}
+  
+  .item-grid,
+  .item-input-grid, .storage-grid {
+    display: grid;
+    grid-template-columns: 200px 300px 300px 300px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+    
+  }
+  
+  .process-grid{
+    display: grid;
+    grid-template-columns: 200px 300px 300px 300px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+  }
+
+  .item-input-grid {
+    margin-bottom: 10px;
+    align-items: stretch;
+  }
+  
+  .name-input {
+    font-size: 15px;
+    padding: 6px;
+  }
+  
+  .add-item-button {
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .delete-todo-button{
+    background-color: darkred;
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .add-item-button:active{
+    background-color: green;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}  
+
+.delete-todo-button:active{
+    background-color: darkred;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
